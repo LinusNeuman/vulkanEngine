@@ -56,8 +56,8 @@
 *.svclog
 *.scc
 
-Temp/*
-Source/.vs/*
+Code/Temp/*
+Code/Source/.vs/*
 
 *.suo
 *.user
