@@ -4,10 +4,6 @@
 #include <Windows.h>
 #include <fstream>
 
-#include "SPIRV\GlslangToSpv.h"
-
-#pragma comment(lib, "SPIRVd.lib")
-
 std::wstring getEnvVar(const std::wstring& key)
 {
 	const DWORD bufferSize = 256;
